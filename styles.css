@@ -1,0 +1,38 @@
+body{
+    background: hsl(212, 45%, 89%);
+    margin:0;
+    padding:0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper{
+    background: hsl(0, 0%, 100%);
+    width:450px;
+    height: 650px;
+    margin:auto;
+    border-radius: 1.5em;
+}
+
+.box{
+    background: url(/qr-code/media/image-qr-code.png) no-repeat;
+    background-size: contain;
+    width:400px;
+    height: 400px;
+    margin:25px auto 10px auto;
+    border-radius: 1em;
+}
+
+h1{
+    font-weight: 700;
+    text-align: center;
+}
+p{  
+    font-weight: 400;
+    font-size: 20px;
+    color:hsl(220, 15%, 55%);
+    text-align: center;
+    letter-spacing: 1px;
+}
