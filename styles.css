@@ -19,7 +19,7 @@ body{
 .box{
     background: url(../qr-code/media/image-qr-code.png) no-repeat;
     background-size: contain;
-    width:400px;
+    width:400px; 
     height: 400px;
     margin:25px auto 10px auto;
     border-radius: 1em;
