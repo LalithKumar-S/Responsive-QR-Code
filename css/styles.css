@@ -10,8 +10,8 @@ body{
 
 .wrapper{
     background: hsl(0, 0%, 100%);
-    width:450px;
-    height: 650px;
+    width:400px;
+    height: 620px;
     margin:auto;
     border-radius: 1.5em;
 }
@@ -19,8 +19,8 @@ body{
 .box{
     background: url(../media/image-qr-code.png) no-repeat;
     background-size: contain;
-    width:400px; 
-    height: 400px;
+    width:350px; 
+    height: 350px;
     margin:25px auto 10px auto;
     border-radius: 1em;
 }
@@ -28,6 +28,22 @@ body{
 h1{
     font-weight: 700;
     text-align: center;
+}
+@media screen and(max-width:375px){
+    .wrapper{
+        width:350px;
+    }
+    .box{
+        width: 320px;
+        height: 320px;
+    }
+    h1{
+        font-size:large;
+    }
+    p{
+        letter-spacing: 0px;
+    }
+    
 }
 p{  
     font-weight: 400;
